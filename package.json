@@ -1,28 +1,22 @@
 {
-  "name": "cordova-plugin-insomnia",
+  "name": "com.peerio.cordova.plugin.insomnia",
   "version": "4.2.0",
   "description": "Prevent the screen of the mobile device from falling asleep.",
   "cordova": {
-    "id": "cordova-plugin-insomnia",
+    "id": "com.peerio.cordova.plugin.insomnia",
     "platforms": [
       "ios",
-      "wp8",
-      "windows",
-      "android",
-      "firefoxos"
+      "android"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EddyVerbruggen/Insomnia-PhoneGap-Plugin.git"
+    "url": "https://github.com/PeerioTechnologies/peerio-cordova-insomnia"
   },
   "keywords": [
     "ecosystem:cordova",
     "cordova-ios",
-    "cordova-wp8",
-    "cordova-windows",
-    "cordova-android",
-    "cordova-firefoxos"
+    "cordova-android"
   ],
   "engines": [
     {
@@ -31,9 +25,5 @@
     }
   ],
   "author": "Eddy Verbruggen <eddyverbruggen@gmail.com> (https://github.com/EddyVerbruggen)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/EddyVerbruggen/Insomnia-PhoneGap-Plugin/issues"
-  },
-  "homepage": "https://github.com/EddyVerbruggen/Insomnia-PhoneGap-Plugin#readme"
+  "license": "MIT"
 }
